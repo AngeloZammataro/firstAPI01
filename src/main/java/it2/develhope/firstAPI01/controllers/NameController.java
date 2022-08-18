@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class nameController {
+public class NameController {
 
-    @GetMapping
+    @GetMapping("/")
     public String getName(){
         return "Angelo Zammataro";
     }
